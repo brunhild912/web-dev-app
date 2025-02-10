@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "658783323804",
+    "project_id": "programming-app-55fbe",
+    "storage_bucket": "programming-app-55fbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658783323804:android:b29b79177907581c810f59",
+        "android_client_info": {
+          "package_name": "com.example.programming_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEpL9YzT60fAtIo5dFEyqedTcmm3x2oFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

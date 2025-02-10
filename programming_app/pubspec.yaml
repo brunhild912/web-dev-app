@@ -1,0 +1,66 @@
+name: programming_app
+description: "HTML CSS Learning App"
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  code_text_field: ^1.1.0
+  flutter_highlight: ^0.7.0
+  highlight: ^0.7.0
+  firebase_auth: ^4.16.0
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.14.0
+  flutter_svg: ^2.0.10+1
+  flutter_html: ^3.0.0-beta.2
+  fl_chart: ^0.69.0
+  audioplayers: ^6.1.0
+  flutter_launcher_icons: ^0.13.1
+  shared_preferences: ^2.3.2
+  uuid: ^4.5.1
+  smooth_page_indicator: ^1.2.0+3
+  webview_flutter: ^4.10.0
+  flutter_code_editor: ^0.3.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+      - assets/images/
+      - assets/audio/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+
+  fonts:
+    - family: 'Roboto'
+      fonts:
+        - asset: assets/fonts/roboto.ttf
+    - family: 'Source Code Pro'
+      fonts:
+        - asset: assets/fonts/scpro.ttf
+    - family: 'inriaR'
+      fonts:
+        - asset: assets/fonts/inriaR.ttf
